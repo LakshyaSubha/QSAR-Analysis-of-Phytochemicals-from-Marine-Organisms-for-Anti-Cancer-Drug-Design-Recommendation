@@ -9,9 +9,8 @@ Phytochemicals from marine organisms were compiled and standardized for QSAR ana
 2.	Descriptor Calculation:
 Physicochemical, topological, and quantum chemical descriptors were computed using cheminformatics tools.
 3.	Model Development:
-o	Simple and multiple linear regression (MLR) models were constructed.
-o	Feature combinations were screened to avoid multicollinearity (correlation > 0.85).
-o	Statistical parameters such as R², Adjusted R², Mean Squared Error (MSE), and p-values were used for performance evaluation.
+  Simple and multiple linear regression (MLR) models were constructed.
+  Feature combinations were screened to avoid multicollinearity (correlation > 0.85).	Statistical parameters such as R², Adjusted R², Mean Squared Error (MSE), and p-values were used for   performance evaluation.
 4.	Model Evaluation:
 The models were validated through statistical significance tests to ensure predictive reliability.
 Top-performing models were identified based on high Adjusted R² and low MSE values.
@@ -19,15 +18,15 @@ Top-performing models were identified based on high Adjusted R² and low MSE val
 Descriptors with consistent significance were interpreted as key determinants for anti-cancer potential.
 These findings guided the recommendation of lead compounds for further in vitro and in silico validation.
  Results Summary
-•	Developed multiple statistically significant QSAR models for marine phytochemicals.
-•	Identified strong correlations between specific molecular descriptors and anti-cancer activity.
-•	Highlighted potential lead compounds with optimal descriptor profiles for drug design.
+  Developed multiple statistically significant QSAR models for marine phytochemicals.
+  Identified strong correlations between specific molecular descriptors and anti-cancer activity.
+  Highlighted potential lead compounds with optimal descriptor profiles for drug design.
 Applications
-•	Supports drug discovery pipelines focusing on marine natural products.
-•	Assists pharmaceutical researchers in understanding structural factors influencing anti-cancer activity.
-•	Provides a framework for QSAR-driven prediction of bioactivity in novel compounds.
+  Supports drug discovery pipelines focusing on marine natural products.
+ 	Assists pharmaceutical researchers in understanding structural factors influencing anti-cancer activity.
+  Provides a framework for QSAR-driven prediction of bioactivity in novel compounds.
  Tools and Technologies
-•	Python (NumPy, SciPy, Pandas, Scikit-learn)
-•	Excel Solver for regression and optimization
-•	Power BI for visual analytics and correlation matrices
-•	MATLAB (for advanced optimization and validation analysis)
+ 	Python (NumPy, SciPy, Pandas, Scikit-learn)
+ 	Excel Solver for regression and optimization
+ 	Power BI for visual analytics and correlation matrices
+ 	MATLAB (for advanced optimization and validation analysis)
